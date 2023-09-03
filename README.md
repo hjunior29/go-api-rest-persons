@@ -69,4 +69,4 @@ After executing the above command, you can access the pgadmin web application at
 - You can explore all API endpoints with Thunder Client importing for you VSCode extension with the `thunder-collection_api-rest-persons.json` :
  [How to Import a Collection](https://github.com/rangav/thunder-client-support#how-to-import-a-collection)
 
-    ![Alt text](image.png)
+    ![Alt text](images/image-5.png)
