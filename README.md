@@ -51,6 +51,7 @@ After executing the above command, you can access the pgadmin web application at
     The password is `PGADMIN_PASSWORD`
 
 - Register new database server
+
     ![Alt text](images/image-2.png)
 
     ![Alt text](images/image-1.png)
