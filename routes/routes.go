@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"Api-Rest/controllers"
-	"Api-Rest/middleware"
+	"api-rest-persons/controllers"
+	"api-rest-persons/middleware"
 	"log"
 	"net/http"
 

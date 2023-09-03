@@ -1,8 +1,8 @@
 package main
 
 import (
-	"Api-Rest/database"
-	"Api-Rest/routes"
+	"api-rest-persons/database"
+	"api-rest-persons/routes"
 	"log"
 
 	"github.com/joho/godotenv"

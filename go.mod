@@ -1,4 +1,4 @@
-module Api-Rest
+module api-rest-persons
 
 go 1.20
 
