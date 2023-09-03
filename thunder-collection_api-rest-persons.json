@@ -1,0 +1,112 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "api-rest-persons",
+    "dateExported": "2023-09-03T04:29:46.936Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3991d3b0-e8f9-4105-a61e-ac2492e2b5f6",
+            "colId": "8eb4aadc-e31d-4694-99ba-f0bf281de218",
+            "containerId": "",
+            "name": "All Personality",
+            "url": "/api/personality",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-09-03T01:55:49.573Z",
+            "modified": "2023-09-03T01:57:54.801Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8a5de64b-c3ba-4f48-9351-7b0e335cd3a2",
+            "colId": "8eb4aadc-e31d-4694-99ba-f0bf281de218",
+            "containerId": "",
+            "name": "Return Personality",
+            "url": "/api/personality/{id}",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-09-03T02:27:45.814Z",
+            "modified": "2023-09-03T02:28:37.184Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "eafd969b-df86-48b4-b808-56cb9f894955",
+            "colId": "8eb4aadc-e31d-4694-99ba-f0bf281de218",
+            "containerId": "",
+            "name": "Create Personality",
+            "url": "/api/personality/create",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-09-03T02:29:00.372Z",
+            "modified": "2023-09-03T02:47:50.868Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"\",\n  \"history\": \"\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e2be11ae-fa32-444a-a43b-1ad2a24f5ae6",
+            "colId": "8eb4aadc-e31d-4694-99ba-f0bf281de218",
+            "containerId": "",
+            "name": "Delete Personality",
+            "url": "/api/personality/delete/{id}",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-09-03T02:32:15.082Z",
+            "modified": "2023-09-03T04:28:02.665Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "10",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "5493e198-21c3-4eb9-b7bb-87ad6a1f7182",
+            "colId": "8eb4aadc-e31d-4694-99ba-f0bf281de218",
+            "containerId": "",
+            "name": "Edit Personality",
+            "url": "/api/personality/edit/{id}",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-09-03T02:40:31.217Z",
+            "modified": "2023-09-03T02:47:10.459Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "5",
+                    "isPath": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"update name\",\n  \"history\": \"update history\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:8080"
+        }
+    }
+}
